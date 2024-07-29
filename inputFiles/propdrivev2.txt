@@ -1,0 +1,11 @@
+PropDrive v2   ! name
+
+ 
+1        ! motor type  (1 = permanent-magnet brushed or brushless DC motor)
+
+ 
+0.12   ! motor parameter 1 ,  R  (Ohms)      for motor type 1
+ 
+0.8  ! motor parameter 2 ,  Io (Amps)      for motor type 1
+
+650 ! motor parameter 3 ,  Kv (rpm/Volt)/gearing  for motor type 1

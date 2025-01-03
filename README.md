@@ -1,62 +1,65 @@
-# Otimização de Hélices com Algoritmos Genéticos
 
-Este repositório contém o código e os arquivos necessários para otimizar hélices utilizando algoritmos genéticos e a ferramenta QPROP.
+# Propeller Optimization with Genetic Algorithms
 
-## Estrutura do Diretório
+This repository contains the code and files necessary to optimize propellers using genetic algorithms and the QPROP tool.
+
+## Directory Structure
 
 - inputFiles
   - APC12x6.txt
   - propdrive2.txt
   - results12x6PY.txt
   - solar1run.txt
-- otimização.ipynb
+- optimization.ipynb
 - qcon.def
 - qprop.exe
 
-## Dependências
+## Dependencies
 
-As bibliotecas necessárias são:
+The required libraries are:
 
 - numpy
 - matplotlib
 - deap
 
-Instale as dependências usando:
+Install the dependencies using:
 
+```bash
 pip install numpy matplotlib deap
+```
 
-## Como Executar
+## How to Run
 
-### Passo 1: Otimização da Hélice
+### Step 1: Propeller Optimization
 
-1. Abra o arquivo `otimização.ipynb` em um ambiente Jupyter Notebook.
-2. Execute todas as células para realizar a otimização da hélice e gerar gráficos comparativos.
+1. Open the `optimization.ipynb` file in a Jupyter Notebook environment.
+2. Run all the cells to perform the propeller optimization and generate comparison plots.
 
-### Passo 2: Visualização dos Resultados
+### Step 2: Visualizing the Results
 
-Os gráficos comparando os dados de desempenho da hélice original e otimizada serão gerados no final da execução do notebook.
+The plots comparing the performance data of the original and optimized propellers will be generated at the end of the notebook execution.
 
-## Descrição dos Arquivos
+## File Descriptions
 
-- **inputFiles/APC12x6.txt**: Arquivo de entrada com dados da hélice original.
-- **inputFiles/propdrive2.txt**: Configuração do motor para QPROP.
-- **inputFiles/results12x6PY.txt**: Resultados de desempenho da hélice original.
-- **inputFiles/solar1run.txt**: Configuração de simulação para QPROP.
-- **otimização.ipynb**: Notebook contendo o código de otimização e visualização.
-- **qcon.def**: Arquivo de configuração necessário para QPROP.
-- **qprop.exe**: Executável do QPROP.
+- **inputFiles/APC12x6.txt**: Input file with data for the original propeller.
+- **inputFiles/propdrive2.txt**: Motor configuration for QPROP.
+- **inputFiles/results12x6PY.txt**: Performance results for the original propeller.
+- **inputFiles/solar1run.txt**: Simulation configuration for QPROP.
+- **optimization.ipynb**: Notebook containing the optimization and visualization code.
+- **qcon.def**: Configuration file required for QPROP.
+- **qprop.exe**: QPROP executable.
 
-## Funcionalidades
+## Features
 
-### Algoritmo Genético
+### Genetic Algorithm
 
-O notebook inclui a configuração e execução do algoritmo genético, que otimiza o número de pás, a corda e o ângulo de torção da hélice para maximizar a eficiência propulsiva.
+The notebook includes the configuration and execution of the genetic algorithm, which optimizes the number of blades, the chord, and the twist angle of the propeller to maximize propulsive efficiency.
 
-### Visualização dos Resultados
+### Visualizing the Results
 
-O notebook também contém código para gerar gráficos comparando a hélice original com a otimizada em termos de eficiência propulsiva, potência de eixo, empuxo, torque e eficiência total.
+The notebook also contains code to generate graphs comparing the original and optimized propellers in terms of propulsive efficiency, shaft power, thrust, torque, and overall efficiency.
 
-## Autor
+## Author
 
 - João Vitor Quintas dos Santos
 
